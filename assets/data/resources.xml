@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="17" fixedrot="false" fric="0.2" gid="2" id="45" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="arrow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="46" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="47" id="46" name="arrow" shared="false" width="122">
+        <anim across="2" down="2" durations="100,100,100" height="94" id="0" loop="true" name="Animation 0" numframes="3" originx="61" originy="23" sync="false" version="2" width="244">
+            <poly data="4,0,0,122,0,122,47,0,47" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="0" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="banenna" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="84" id="9" name="banenna" shared="false" width="42">
+        <anim across="2" down="2" durations="100,100,100,100" height="168" id="0" loop="true" name="left" numframes="4" originx="21" originy="42" sync="false" version="2" width="84">
+            <poly data="4,0,0,42,0,42,84,0,84" density="0.1" fric="0.2" gid="-1000" id="0" name="left" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="22" name="bg3" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="49" name="bg4" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="52" name="bg5" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <tileset across="21" atlasID="0" desc="" down="6" id="7" name="Blobs Mixed Grass Tileset" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="58" id="58" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="66" id="66" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="67" id="67" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="68" id="68" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="69" id="69" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="70" id="70" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="72" id="72" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="73" id="73" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="74" id="74" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="75" id="75" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="76" id="76" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="77" id="77" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="78" id="78" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="79" id="79" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="80" id="80" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="81" id="81" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="82" id="82" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="83" id="83" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="84" id="84" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="85" id="85" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="86" id="86" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="87" id="87" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="88" id="88" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="89" id="89" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="90" id="90" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="91" id="91" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="92" id="92" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="93" id="93" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="94" id="94" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="95" id="95" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="96" id="96" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="97" id="97" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="98" id="98" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="99" id="99" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="100" id="100" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="101" id="101" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="102" id="102" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="103" id="103" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="104" id="104" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="105" id="105" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="106" id="106" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="107" id="107" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="108" id="108" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="109" id="109" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="110" id="110" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="111" id="111" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="112" id="112" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="113" id="113" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="114" id="114" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="115" id="115" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="116" id="116" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="117" id="117" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="118" id="118" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="119" id="119" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="120" id="120" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="121" id="121" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="122" id="122" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="123" id="123" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="124" id="124" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="125" id="125" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="4" id="12" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bossbowl" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="247" id="13" name="bossbowl" shared="false" width="333">
+        <anim across="3" down="2" durations="500,100,300,100,100" height="494" id="0" loop="true" name="angry" numframes="5" originx="166" originy="123" sync="false" version="2" width="999">
+            <poly data="4,0,0,250,0,250,185,0,185" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="247" id="1" loop="true" name="hit" numframes="1" originx="166" originy="123" sync="false" version="2" width="333">
+            <poly data="4,0,0,333,0,333,247,0,247" density="0.1" fric="0.2" gid="-1000" id="0" name="hit" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="30" fixedrot="false" fric="0.2" gid="2" id="59" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bowlbar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="2" id="47" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="48" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="63" id="48" name="button" shared="false" width="209">
+        <anim across="2" down="1" durations="400,400" height="63" id="0" loop="true" name="play" numframes="2" originx="104" originy="31" sync="false" version="2" width="418">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="play" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="63" id="1" loop="false" name="blank" numframes="1" originx="104" originy="31" sync="false" version="2" width="209">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="blank" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="63" id="2" loop="false" name="playagn" numframes="1" originx="104" originy="31" sync="false" version="2" width="209">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="playagn" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="63" id="3" loop="false" name="quit" numframes="1" originx="104" originy="31" sync="false" version="2" width="209">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="quit" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="63" id="4" loop="false" name="continue" numframes="1" originx="104" originy="31" sync="false" version="2" width="209">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="continue" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="63" id="5" loop="false" name="next" numframes="1" originx="104" originy="31" sync="false" version="2" width="209">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="next" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-3.0" dy="-0.0" height="400" id="21" name="clouds" numframes="1" oid="-1" repeats="true" resized="false" shared="false" width="533" xpf="1.0" ypf="2.0"/>
+    <music atlasID="0" desc="A damage sound, created with noise. Use it for when something is hurt in your game.&lt;br&gt;This was created with SFXR." id="41" loop="true" name="Damaged Noise" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="46" id="51" name="default" offsets="0|0|0|,6|0|6,11|0|11,19|0|19,30|0|30,41|0|41,58|0|58,72|0|72,77|0|77,83|0|83,90|0|90,98|0|98,109|0|109,113|0|113,119|0|119,123|0|123,129|0|129,140|0|140,148|0|148,159|0|159,170|0|170,181|0|181,192|0|192,203|0|203,214|0|214,225|0|225,236|0|236,241|0|241,246|0|246,257|0|257,268|0|268,279|0|279,290|0|290,309|0|309,323|0|323,336|0|336,350|0|350,363|0|363,375|0|375,386|0|386,400|0|400,412|0|412,416|0|416,426|0|426,439|0|439,450|0|450,464|0|464,476|0|476,491|0|491,503|0|503,518|0|518,531|0|531,544|0|544,556|0|556,568|0|568,581|0|581,599|0|599,612|0|612,625|0|625,637|0|637,643|0|643,649|0|649,655|0|655,665|0|665,678|0|678,684|0|684,695|0|695,706|0|706,717|0|717,728|0|728,739|0|739,747|0|747,758|0|758,768|0|768,772|0|772,778|0|778,788|0|788,792|0|792,807|0|807,817|0|817,829|0|829,840|0|840,851|0|851,859|0|859,870|0|870,877|0|877,887|0|887,898|0|898,913|0|913,924|0|924,935|0|935,945|0|945,953|0|953,957|0|957,965|0|965,976|0|976,987|0|987,988|0|988,989|0|989,990|0|990,991|0|991,992|0|992,993|0|993,994|0|994,995|0|995,996|0|996,997|0|997,998|0|998,999|0|999,1000|0|1000,1001|0|1001,1002|0|1002,1003|0|1003,1004|0|1004,1005|0|1005,1006|0|1006,1007|0|1007,1008|0|1008,1009|0|1009,1010|0|1010,1011|0|1011,1012|0|1012,1013|0|1013,1014|0|1014,1015|0|1015,1016|0|1016,1017|0|1017,1018|0|1018,1019|0|1019,1025|0|1025,1030|0|1030,1041|0|1041,1052|0|1052,1063|0|1063,1074|0|1074,1078|0|1078,1089|0|1089,1096|0|1096,1112|0|1112,1120|0|1120,1129|0|1129,1140|0|1140,1146|0|1146,1162|0|1162,1175|0|1175,1183|0|1183,1194|0|1194,1201|0|1201,1208|0|1208,1214|0|1214,1224|0|1224,1235|0|1235,1240|0|1240,1247|0|1247,1253|0|1253,1261|0|1261,1271|0|1271,1287|0|1287,1303|0|1303,1319|0|1319,1331|0|1331,1345|0|1345,1359|0|1359,1373|0|1373,1387|0|1387,1401|0|1401,1415|0|1415,1435|0|1435,1449|0|1449,1461|0|1461,1473|0|1473,1485|0|1485,1497|0|1497,1503|0|1503,1509|0|1509,1517|0|1517,1524|0|1524,1538|0|1538,1550|0|1550,1565|0|1565,1580|0|1580,1595|0|1595,1610|0|1610,1625|0|1625,1635|0|1635,1650|0|1650,1662|0|1662,1674|0|1674,1686|0|1686,1698|0|1698,1711|0|1711,1723|0|1723,1734|0|1734,1745|0|1745,1756|0|1756,1767|0|1767,1778|0|1778,1789|0|1789,1800|0|1800,1817|0|1817,1828|0|1828,1839|0|1839,1850|0|1850,1861|0|1861,1872|0|1872,1878|0|1878,1884|0|1884,1892|0|1892,1899|0|1899,1911|0|1911,1921|0|1921,1933|0|1933,1945|0|1945,1957|0|1957,1969|0|1969,1981|0|1981,1992|0|1992,2004|0|2004,2014|0|2014,2024|0|2024,2034|0|2034,2044|0|2044,2055|0|2055,2066|0|2066,2077|0|2077,2091|0|2091,2102|0|2102,2116|0|2116,2127|0|2127,2141|0|2141,2152|0|2152,2166|0|2166,2177|0|2177,2191|0|2191,2202|0|2202,2216|0|2216,2227|0|2227,2241|0|2241,2252|0|2252,2265|0|2265,2279|0|2279,2293|0|2293,2305|0|2305,2317|0|2317,2328|0|2328,2340|0|2340,2351|0|2351,2363|0|2363,2374|0|2374,2386|0|2386,2397|0|2397,2409|0|2409,2420|0|2420,2434|0|2434,2445|0|2445,2459|0|2459,2470|0|2470,2484|0|2484,2495|0|2495,2509|0|2509,2520|0|2520,2532|0|2532,2542|0|2542,2556|0|2556,2567|0|2567,2575|0|2575,2583|0|2583,2590|0|2590,2597|0|2597,2604|0|2604,2611|0|2611,2616|0|2616,2621|0|2621,2625|0|2625,2629|0|2629,2642|0|2642,2651|0|2651,2662|0|2662,2670|0|2670,2683|0|2683,2693|0|2693,2703|0|2703,2714|0|2714,2720|0|2720,2731|0|2731,2736|0|2736,2747|0|2747,2754|0|2754,2765|0|2765,2773|0|2773,2785|0|2785,2791|0|2791,2803|0|2803,2813|0|2813,2825|0|2825,2835|0|2835,2847|0|2847,2857|0|2857,2872|0|2872,2885|0|2885,2895|0|2895,2910|0|2910,2922|0|2922,2937|0|2937,2949|0|2949,2964|0|2964,2976|0|2976,2995|0|2995,3013|0|3013,3026|0|3026,3034|0|3034,3047|0|3047,3055|0|3055,3068|0|3068,3076|0|3076,3089|0|3089,3100|0|3100,3113|0|3113,3124|0|3124,3137|0|3137,3148|0|3148,3161|0|3161,3172|0|3172,3184|0|3184,3192|0|3192,0|23|3204,10|23|3214,22|23|3226,29|23|3233,41|23|3245,51|23|3255,63|23|3267,73|23|3277,85|23|3289,95|23|3299,107|23|3311,117|23|3321,129|23|3333,139|23|3343,151|23|3355,161|23|3365,179|23|3383,194|23|3398,207|23|3411,218|23|3422,231|23|3435,243|23|3447,253|23|3457,265|23|3469,275|23|3479,287|23|3491,297|23|3501" oid="-1" prerendered="false" rowHeight="23" shared="false"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="26" id="62" name="directions" offsets="0|0|0|,6|0|6,11|0|11,21|0|21,39|0|39,51|0|51,70|0|70,84|0|84,89|0|89,96|0|96,103|0|103,113|0|113,125|0|125,131|0|131,139|0|139,145|0|145,155|0|155,168|0|168,176|0|176,188|0|188,199|0|199,212|0|212,223|0|223,235|0|235,247|0|247,259|0|259,271|0|271,276|0|276,281|0|281,290|0|290,301|0|301,310|0|310,322|0|322,343|0|343,359|0|359,373|0|373,386|0|386,400|0|400,412|0|412,424|0|424,438|0|438,453|0|453,460|0|460,470|0|470,485|0|485,497|0|497,517|0|517,532|0|532,546|0|546,560|0|560,574|0|574,589|0|589,601|0|601,614|0|614,628|0|628,643|0|643,665|0|665,679|0|679,694|0|694,707|0|707,714|0|714,724|0|724,731|0|731,739|0|739,750|0|750,756|0|756,768|0|768,781|0|781,792|0|792,805|0|805,816|0|816,827|0|827,839|0|839,852|0|852,859|0|859,866|0|866,879|0|879,886|0|886,906|0|906,920|0|920,932|0|932,945|0|945,957|0|957,966|0|966,976|0|976,985|0|985,998|0|998,1012|0|1012,1031|0|1031,1044|0|1044,1057|0|1057,1068|0|1068,1078|0|1078,1082|0|1082,1092|0|1092,1105|0|1105,1106|0|1106,1107|0|1107,1108|0|1108,1109|0|1109,1110|0|1110,1111|0|1111,1112|0|1112,1113|0|1113,1114|0|1114,1115|0|1115,1116|0|1116,1117|0|1117,1118|0|1118,1119|0|1119,1120|0|1120,1121|0|1121,1122|0|1122,1123|0|1123,1124|0|1124,1125|0|1125,1126|0|1126,1127|0|1127,1128|0|1128,1129|0|1129,1130|0|1130,1131|0|1131,1132|0|1132,1133|0|1133,1134|0|1134,1135|0|1135,1136|0|1136,1137|0|1137,1138|0|1138,1144|0|1144,1149|0|1149,1160|0|1160,1172|0|1172,1186|0|1186,1200|0|1200,1204|0|1204,1214|0|1214,1225|0|1225,1242|0|1242,1252|0|1252,1264|0|1264,1277|0|1277,1285|0|1285,1302|0|1302,1311|0|1311,1320|0|1320,1332|0|1332,1341|0|1341,1350|0|1350,1356|0|1356,1370|0|1370,1383|0|1383,1389|0|1389,1395|0|1395,1401|0|1401,1411|0|1411,1423|0|1423,1439|0|1439,1456|0|1456,1473|0|1473,1485|0|1485,1501|0|1501,1517|0|1517,1533|0|1533,1549|0|1549,1565|0|1565,1581|0|1581,1602|0|1602,1615|0|1615,1627|0|1627,1639|0|1639,1651|0|1651,1663|0|1663,1670|0|1670,1678|0|1678,1686|0|1686,1696|0|1696,1711|0|1711,1726|0|1726,1740|0|1740,1754|0|1754,1768|0|1768,1782|0|1782,1796|0|1796,1808|0|1808,1824|0|1824,1838|0|1838,1852|0|1852,1866|0|1866,1880|0|1880,1895|0|1895,1909|0|1909,1922|0|1922,1934|0|1934,1946|0|1946,1958|0|1958,1970|0|1970,1982|0|1982,1994|0|1994,2011|0|2011,2022|0|2022,2033|0|2033,2044|0|2044,2055|0|2055,2066|0|2066,2073|0|2073,2080|0|2080,2089|0|2089,2098|0|2098,2110|0|2110,2124|0|2124,2136|0|2136,2148|0|2148,2160|0|2160,2172|0|2172,2184|0|2184,2196|0|2196,2210|0|2210,2223|0|2223,2236|0|2236,2249|0|2249,2262|0|2262,2275|0|2275,2288|0|2288,2301|0|2301,2302|0|2302,2303|0|2303,2304|0|2304,2305|0|2305,2306|0|2306,2307|0|2307,2308|0|2308,2309|0|2309,2310|0|2310,2311|0|2311,2312|0|2312,2313|0|2313,2314|0|2314,2315|0|2315,2316|0|2316,2317|0|2317,2318|0|2318,2319|0|2319,2320|0|2320,2321|0|2321,2322|0|2322,2323|0|2323,2324|0|2324,2325|0|2325,2326|0|2326,2327|0|2327,2328|0|2328,2329|0|2329,2330|0|2330,2331|0|2331,2332|0|2332,2333|0|2333,2334|0|2334,2335|0|2335,2336|0|2336,2337|0|2337,2338|0|2338,2339|0|2339,2340|0|2340,2341|0|2341,2342|0|2342,2343|0|2343,2344|0|2344,2345|0|2345,2346|0|2346,2347|0|2347,2348|0|2348,2349|0|2349,2350|0|2350,2357|0|2357,2358|0|2358,2359|0|2359,2360|0|2360,2361|0|2361,2362|0|2362,2363|0|2363,2364|0|2364,2365|0|2365,2366|0|2366,2367|0|2367,2368|0|2368,2369|0|2369,2370|0|2370,2371|0|2371,2372|0|2372,2384|0|2384,2393|0|2393,2394|0|2394,2395|0|2395,2396|0|2396,2397|0|2397,2398|0|2398,2399|0|2399,2400|0|2400,2401|0|2401,2402|0|2402,2403|0|2403,2404|0|2404,2405|0|2405,2406|0|2406,2407|0|2407,2408|0|2408,2427|0|2427,2445|0|2445,2446|0|2446,2447|0|2447,2448|0|2448,2449|0|2449,2450|0|2450,2451|0|2451,2452|0|2452,2453|0|2453,2454|0|2454,2455|0|2455,2456|0|2456,2457|0|2457,2469|0|2469,2479|0|2479,2480|0|2480,2481|0|2481,2482|0|2482,2483|0|2483,2484|0|2484,2485|0|2485,2486|0|2486,2487|0|2487,2488|0|2488,2489|0|2489,2490|0|2490,2491|0|2491,2492|0|2492,2493|0|2493,2494|0|2494,2495|0|2495,2496|0|2496,2497|0|2497,2498|0|2498,2499|0|2499,2500|0|2500,2501|0|2501,2516|0|2516,2517|0|2517,2518|0|2518,2519|0|2519,2520|0|2520,2533|0|2533" oid="-1" prerendered="false" rowHeight="26" shared="false"/>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="" eventsnippetid="10" fixedrot="true" fric="0.2" gid="3" id="28" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Enter Door" oid="-1" pausable="false" physicsMode="0" rest="0.0" shared="false" sprite="29" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="29" name="Enter Door" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="false" name="normal" numframes="1" originx="32" originy="32" sync="false" version="2" width="64">
+            <poly data="4,8,16,54,16,54,64,8,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Box" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100" height="128" id="1" loop="false" name="opendoor" numframes="5" originx="32" originy="32" sync="false" version="2" width="192"/>
+        <anim across="3" down="2" durations="100,100,100,100,100" height="128" id="2" loop="false" name="closedoor" numframes="5" originx="32" originy="32" sync="false" version="2" width="192"/>
+    </sprite>
+    <tileset across="6" atlasID="0" desc="" down="18" id="17" name="Grass Land Tileset" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="55" id="55" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="56" id="56" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="57" id="57" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="58" id="58" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="60" id="60" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="61" id="61" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="63" id="63" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="64" id="64" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="66" id="66" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="67" id="67" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="68" id="68" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="69" id="69" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="70" id="70" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="72" id="72" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="73" id="73" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="74" id="74" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="75" id="75" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="76" id="76" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="77" id="77" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="78" id="78" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="79" id="79" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="80" id="80" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="81" id="81" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="82" id="82" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="83" id="83" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="84" id="84" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="85" id="85" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="86" id="86" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="87" id="87" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="88" id="88" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="89" id="89" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="90" id="90" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="91" id="91" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="92" id="92" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="93" id="93" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="94" id="94" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="95" id="95" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="96" id="96" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="97" id="97" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="98" id="98" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="99" id="99" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="100" id="100" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="101" id="101" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="102" id="102" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="103" id="103" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="104" id="104" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="105" id="105" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="106" id="106" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="107" id="107" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="108" id="108" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="109" id="109" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="110" id="110" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="111" id="111" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="112" id="112" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="2" id="26" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="healthbar" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="27" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="27" name="healthbar" shared="false" width="118">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="p10" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="1" loop="false" name="p9" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="2" loop="false" name="p8" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p80" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="3" loop="false" name="p7" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p70" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="4" loop="false" name="p6" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p60" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="5" loop="false" name="p5" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p50" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="6" loop="false" name="p4" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p40" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="300,300" height="19" id="7" loop="true" name="p3" numframes="2" originx="59" originy="9" sync="false" version="2" width="236">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p30" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="300,300" height="19" id="8" loop="true" name="p2" numframes="2" originx="59" originy="9" sync="false" version="2" width="236">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 8" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="300,300" height="19" id="9" loop="true" name="p1" numframes="2" originx="59" originy="9" sync="false" version="2" width="236">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 9" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="10" loop="true" name="p0" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 10" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="60" name="healthbar" shared="false" width="118">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="p10" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="1" loop="false" name="p9" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="2" loop="false" name="p8" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p80" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="3" loop="false" name="p7" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p70" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="4" loop="false" name="p6" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p60" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="5" loop="false" name="p5" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p50" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="6" loop="false" name="p4" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p40" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="300,300" height="19" id="7" loop="true" name="p3" numframes="2" originx="59" originy="9" sync="false" version="2" width="236">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="p30" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="300,300" height="19" id="8" loop="true" name="p2" numframes="2" originx="59" originy="9" sync="false" version="2" width="236">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 8" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="300,300" height="19" id="9" loop="true" name="p1" numframes="2" originx="59" originy="9" sync="false" version="2" width="236">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 9" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="19" id="10" loop="true" name="p0" numframes="1" originx="59" originy="9" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 10" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="400,400" dx="-0.0" dy="-0.0" height="600" id="53" name="help1" numframes="2" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="25" loop="true" name="Jump" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="40" loop="true" name="Key Collected" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="304" id="23" name="lvl1" offsets="0|0|0|,18|0|18,38|0|38,64|0|64,107|0|107,140|0|140,184|0|184,224|0|224,241|0|241,268|0|268,295|0|295,328|0|328,360|0|360,378|0|378,410|0|410,427|0|427,462|0|462,504|0|504,530|0|530,568|0|568,607|0|607,646|0|646,685|0|685,723|0|723,757|0|757,797|0|797,835|0|835,853|0|853,871|0|871,903|0|903,935|0|935,967|0|967,1004|0|1004,1052|0|1052,1093|0|1093,1135|0|1135,1181|0|1181,1222|0|1222,1258|0|1258,1294|0|1294,1340|0|1340,1381|0|1381,1411|0|1411,1450|0|1450,1491|0|1491,1524|0|1524,1577|0|1577,1620|0|1620,1664|0|1664,1702|0|1702,1746|0|1746,1785|0|1785,1825|0|1825,1863|0|1863,1904|0|1904,1945|0|1945,2003|0|2003,2047|0|2047,2094|0|2094,2134|0|2134,2160|0|2160,2196|0|2196,2223|0|2223,2256|0|2256,2288|0|2288,2308|0|2308,2345|0|2345,2382|0|2382,2417|0|2417,2454|0|2454,2490|0|2490,2519|0|2519,2555|0|2555,2590|0|2590,2609|0|2609,2644|0|2644,2675|0|2675,2692|0|2692,2740|0|2740,2775|0|2775,2811|0|2811,2848|0|2848,2885|0|2885,2921|0|2921,0|76|2956,33|76|2989,67|76|3023,103|76|3059,151|76|3107,189|76|3145,225|76|3181,257|76|3213,287|76|3243,306|76|3262,337|76|3293,382|76|3338,383|76|3339,384|76|3340,385|76|3341,386|76|3342,387|76|3343,388|76|3344,389|76|3345,390|76|3346,391|76|3347,392|76|3348,393|76|3349,394|76|3350,395|76|3351,396|76|3352,397|76|3353,398|76|3354,399|76|3355,400|76|3356,401|76|3357,402|76|3358,403|76|3359,404|76|3360,405|76|3361,406|76|3362,407|76|3363,408|76|3364,409|76|3365,410|76|3366,411|76|3367,412|76|3368,413|76|3369,414|76|3370,415|76|3371,433|76|3389,452|76|3408,485|76|3441,525|76|3481,552|76|3508,591|76|3547,609|76|3565,649|76|3605,674|76|3630,699|76|3655,721|76|3677,771|76|3727,809|76|3765,838|76|3794,863|76|3819,888|76|3844,911|76|3867,942|76|3898,965|76|3921,988|76|3944,1008|76|3964,1043|76|3999,1091|76|4047,1108|76|4064,1128|76|4084,1145|76|4101,1167|76|4123,1217|76|4173,1254|76|4210,1291|76|4247,1333|76|4289,1370|76|4326,1411|76|4367,1452|76|4408,1493|76|4449,1534|76|4490,1575|76|4531,1616|76|4572,1673|76|4629,1719|76|4675,1755|76|4711,1791|76|4747,1827|76|4783,1863|76|4819,1893|76|4849,1923|76|4879,1953|76|4909,1983|76|4939,2029|76|4985,2072|76|5028,2116|76|5072,2160|76|5116,2204|76|5160,2248|76|5204,2292|76|5248,2324|76|5280,2368|76|5324,2409|76|5365,2450|76|5406,2491|76|5447,2532|76|5488,2579|76|5535,2617|76|5573,2667|76|5623,2704|76|5660,2741|76|5697,2778|76|5734,2815|76|5771,2852|76|5808,2889|76|5845,2944|76|5900,0|152|5935,36|152|5971,72|152|6007,108|152|6043,144|152|6079,166|152|6101,188|152|6123,214|152|6149,239|152|6174,280|152|6215,315|152|6250,351|152|6286,387|152|6322,423|152|6358,459|152|6394,495|152|6430,527|152|6462,563|152|6498,597|152|6532,631|152|6566,665|152|6600,699|152|6634,735|152|6670,772|152|6707,808|152|6743,849|152|6784,886|152|6821,927|152|6862,964|152|6899,1005|152|6940,1044|152|6979,1090|152|7025,1125|152|7060,1171|152|7106,1206|152|7141,1252|152|7187,1287|152|7222,1333|152|7268,1368|152|7303,1409|152|7344,1455|152|7390,1501|152|7436,1542|152|7477,1578|152|7513,1614|152|7549,1650|152|7585,1686|152|7621,1722|152|7657,1758|152|7693,1794|152|7729,1830|152|7765,1866|152|7801,1902|152|7837,1948|152|7883,1984|152|7919,2030|152|7965,2066|152|8001,2112|152|8047,2148|152|8083,2194|152|8129,2230|152|8165,2271|152|8206,2306|152|8241,2351|152|8286,2390|152|8325,2420|152|8355,2449|152|8384,2479|152|8414,2504|152|8439,2534|152|8469,2560|152|8495,2590|152|8525,2611|152|8546,2641|152|8576,2658|152|8593,2719|152|8654,2754|152|8689,2793|152|8728,2831|152|8766,2872|152|8807,2903|152|8838,0|228|8869,33|228|8902,57|228|8926,90|228|8959,107|228|8976,140|228|9009,166|228|9035,204|228|9073,231|228|9100,269|228|9138,297|228|9166,340|228|9209,375|228|9244,418|228|9287,453|228|9322,496|228|9365,531|228|9400,573|228|9442,616|228|9485,651|228|9520,695|228|9564,731|228|9600,775|228|9644,811|228|9680,855|228|9724,891|228|9760,951|228|9820,1006|228|9875,1045|228|9914,1081|228|9950,1120|228|9989,1156|228|10025,1195|228|10064,1231|228|10100,1271|228|10140,1306|228|10175,1346|228|10215,1381|228|10250,1421|228|10290,1456|228|10325,1496|228|10365,1531|228|10400,1569|228|10438,1602|228|10471,1640|228|10509,1680|228|10549,1718|228|10587,1751|228|10620,1792|228|10661,1826|228|10695,1867|228|10736,1901|228|10770,1942|228|10811,1976|228|10845,2017|228|10886,2051|228|10920,2092|228|10961,2126|228|10995,2167|228|11036,2201|228|11070,2259|228|11128,2307|228|11176,2354|228|11223,2390|228|11259,2437|228|11306,2477|228|11346,2509|228|11378,2549|228|11418,2581|228|11450,2621|228|11490" oid="-1" prerendered="false" rowHeight="76" shared="false"/>
+    <music atlasID="0" desc="" id="61" loop="true" name="Man Grunt" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music atlasID="0" desc="A sound for when you collect a minor item, like a coin.&lt;br&gt;This was created with SFXR." id="37" loop="true" name="Minor Item Collected" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <background atlasID="0" desc="" durations="300,300" dx="-0.0" dy="-0.0" height="600" id="32" name="mountain" numframes="2" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <music atlasID="0" desc="" id="24" loop="true" name="music" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="3" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="nothing" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="63" id="56" name="nothing" shared="false" width="209">
+        <anim across="1" down="1" durations="100" height="63" id="0" loop="true" name="Animation 0" numframes="1" originx="104" originy="31" sync="false" version="2" width="209">
+            <poly data="4,0,0,209,0,209,63,0,63" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="0" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="orynge" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="47" id="11" name="orynge" shared="false" width="50">
+        <anim across="2" down="2" durations="100,100,100,100" height="94" id="0" loop="true" name="Animation 0" numframes="4" originx="25" originy="23" sync="false" version="2" width="100">
+            <poly data="4,0,0,50,0,50,47,0,47" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="Makes a ping noise when coin collected" id="38" loop="true" name="Pickup Coin" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.2" gid="2" id="18" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="pipe" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="19" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="145" id="19" name="pipe" shared="false" width="125">
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100,100,300" height="435" id="0" loop="false" name="spit" numframes="12" originx="62" originy="72" sync="false" version="2" width="500">
+            <poly data="4,0,0,125,0,125,145,0,145" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="145" id="1" loop="true" name="rest" numframes="1" originx="62" originy="72" sync="false" version="2" width="125">
+            <poly data="4,0,0,125,0,125,145,0,145" density="0.1" fric="0.2" gid="-1000" id="0" name="rest" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="12" atlasID="0" desc="" down="6" id="15" name="Pipes Tileset" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="54" id="54" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="55" id="55" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="56" id="56" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="57" id="57" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="58" id="58" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="59" id="59" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="60" id="60" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="61" id="61" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="62" id="62" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="63" id="63" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="64" id="64" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="65" id="65" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="66" id="66" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="67" id="67" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="68" id="68" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="69" id="69" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="70" id="70" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="71" id="71" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="false" fric="0.2" gid="0" id="2" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="pynapl" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="3" static="false">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="13" fixedrot="false" fric="0.2" gid="0" id="33" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="scroll" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="34" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="91" id="34" name="scroll" shared="false" width="75">
+        <anim across="3" down="2" durations="300,300,300,300,300,300" height="182" id="0" loop="true" name="Animation 0" numframes="6" originx="37" originy="45" sync="false" version="2" width="225">
+            <poly data="4,0,0,75,0,75,91,0,91" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="5" id="57" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="seed" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="16" id="58" name="seed" shared="false" width="19">
+        <anim across="2" down="1" durations="100,100" height="16" id="0" loop="true" name="Animation 0" numframes="2" originx="9" originy="8" sync="false" version="2" width="38">
+            <poly data="4,0,0,19,0,19,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="11" atlasID="0" desc="" down="5" id="16" name="SpiralMountain" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="12" id="12" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="13" id="13" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="14" id="14" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="15" id="15" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="16" id="16" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="17" id="17" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="18" id="18" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="19" id="19" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="20" id="20" order="-1"/>
+        <tile collision="23" data="" durations="100" frames="21" id="21" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="22" id="22" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="35" id="35" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="36" id="36" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="37" id="37" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="38" id="38" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="39" id="39" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="40" id="40" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="41" id="41" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="42" id="42" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="43" id="43" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="44" id="44" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="45" id="45" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="46" id="46" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="47" id="47" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="48" id="48" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="49" id="49" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="50" id="50" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="51" id="51" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="52" id="52" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="53" id="53" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="54" id="54" order="-1"/>
+    </tileset>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.2" gid="0" id="35" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="star" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="28" id="36" name="star" shared="false" width="28">
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="84" id="0" loop="true" name="Animation 0" numframes="10" originx="14" originy="14" sync="false" version="2" width="112">
+            <poly data="4,0,0,28,0,28,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="2" id="42" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="status" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="43" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="3" defaultAnimation="3" desc="" height="154" id="43" name="StatusScreen" shared="false" width="617">
+        <anim across="1" down="1" durations="100" height="154" id="0" loop="true" name="lost" numframes="1" originx="308" originy="77" sync="false" version="2" width="617">
+            <poly data="4,0,0,617,0,617,154,0,154" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="400,400" height="154" id="1" loop="true" name="won" numframes="2" originx="308" originy="77" sync="false" version="2" width="1234">
+            <poly data="4,0,0,617,0,617,154,0,154" density="0.1" fric="0.2" gid="-1000" id="0" name="won" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="154" id="2" loop="true" name="completed" numframes="2" originx="308" originy="77" sync="false" version="2" width="1234">
+            <poly data="4,0,0,617,0,617,154,0,154" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="154" id="3" loop="true" name="blank" numframes="1" originx="308" originy="77" sync="false" version="2" width="617">
+            <poly data="4,0,0,617,0,617,154,0,154" density="0.1" fric="0.2" gid="-1000" id="0" name="blank" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="78" id="44" name="statusText" offsets="0|0|0|,8|0|8,15|0|15,28|0|28,54|0|54,71|0|71,99|0|99,119|0|119,126|0|126,136|0|136,146|0|146,160|0|160,177|0|177,184|0|184,196|0|196,203|0|203,217|0|217,235|0|235,247|0|247,265|0|265,282|0|282,301|0|301,318|0|318,335|0|335,352|0|352,369|0|369,386|0|386,393|0|393,400|0|400,413|0|413,430|0|430,442|0|442,460|0|460,490|0|490,513|0|513,532|0|532,550|0|550,570|0|570,587|0|587,603|0|603,623|0|623,644|0|644,654|0|654,669|0|669,690|0|690,706|0|706,734|0|734,755|0|755,775|0|775,794|0|794,814|0|814,835|0|835,852|0|852,872|0|872,893|0|893,915|0|915,948|0|948,968|0|968,989|0|989,1008|0|1008,1018|0|1018,1033|0|1033,1043|0|1043,1055|0|1055,1071|0|1071,1079|0|1079,1097|0|1097,1116|0|1116,1131|0|1131,1150|0|1150,1166|0|1166,1182|0|1182,1199|0|1199,1219|0|1219,1229|0|1229,1240|0|1240,1260|0|1260,1270|0|1270,1299|0|1299,1319|0|1319,1337|0|1337,1355|0|1355,1373|0|1373,1386|0|1386,1400|0|1400,1413|0|1413,1433|0|1433,1453|0|1453,1481|0|1481,1500|0|1500,1520|0|1520,1536|0|1536,1551|0|1551,1556|0|1556,1571|0|1571,1590|0|1590,1591|0|1591,1592|0|1592,1593|0|1593,1594|0|1594,1595|0|1595,1596|0|1596,1597|0|1597,1598|0|1598,1599|0|1599,1600|0|1600,1601|0|1601,1602|0|1602,1603|0|1603,1604|0|1604,1605|0|1605,1606|0|1606,1607|0|1607,1608|0|1608,1609|0|1609,1610|0|1610,1611|0|1611,1612|0|1612,1613|0|1613,1614|0|1614,1615|0|1615,1616|0|1616,1617|0|1617,1618|0|1618,1619|0|1619,1620|0|1620,1621|0|1621,1622|0|1622,1623|0|1623,1631|0|1631,1638|0|1638,1653|0|1653,1670|0|1670,1689|0|1689,1710|0|1710,1715|0|1715,1730|0|1730,1745|0|1745,1769|0|1769,1782|0|1782,1800|0|1800,1820|0|1820,1832|0|1832,1856|0|1856,1869|0|1869,1880|0|1880,1896|0|1896,1908|0|1908,1920|0|1920,1929|0|1929,1949|0|1949,1968|0|1968,1975|0|1975,1982|0|1982,1989|0|1989,2002|0|2002,2019|0|2019,2043|0|2043,2068|0|2068,2094|0|2094,2112|0|2112,2135|0|2135,2158|0|2158,2181|0|2181,2204|0|2204,2227|0|2227,2250|0|2250,2280|0|2280,2298|0|2298,2315|0|2315,2332|0|2332,2349|0|2349,2366|0|2366,2376|0|2376,2386|0|2386,2398|0|2398,2412|0|2412,2434|0|2434,2455|0|2455,2475|0|2475,2495|0|2495,2515|0|2515,2535|0|2535,2555|0|2555,2572|0|2572,2596|0|2596,2617|0|2617,2638|0|2638,2659|0|2659,2680|0|2680,2701|0|2701,2720|0|2720,2740|0|2740,2758|0|2758,2776|0|2776,2794|0|2794,2812|0|2812,2830|0|2830,2848|0|2848,2873|0|2873,2888|0|2888,2904|0|2904,2920|0|2920,2936|0|2936,2952|0|2952,2962|0|2962,2972|0|2972,2984|0|2984,2997|0|2997,3014|0|3014,3034|0|3034,3052|0|3052,3070|0|3070,0|39|3088,18|39|3106,36|39|3124,53|39|3141,74|39|3162,94|39|3182,114|39|3202,134|39|3222,154|39|3242,174|39|3262,193|39|3281,213|39|3301,214|39|3302,215|39|3303,216|39|3304,217|39|3305,218|39|3306,219|39|3307,220|39|3308,221|39|3309,222|39|3310,223|39|3311,224|39|3312,225|39|3313,226|39|3314,227|39|3315,228|39|3316,229|39|3317,230|39|3318,231|39|3319,232|39|3320,233|39|3321,234|39|3322,235|39|3323,236|39|3324,237|39|3325,238|39|3326,239|39|3327,240|39|3328,241|39|3329,242|39|3330,243|39|3331,244|39|3332,245|39|3333,246|39|3334,247|39|3335,248|39|3336,249|39|3337,250|39|3338,251|39|3339,252|39|3340,253|39|3341,254|39|3342,255|39|3343,256|39|3344,257|39|3345,258|39|3346,259|39|3347,260|39|3348,261|39|3349,262|39|3350,272|39|3360,273|39|3361,274|39|3362,275|39|3363,276|39|3364,277|39|3365,278|39|3366,279|39|3367,280|39|3368,281|39|3369,282|39|3370,283|39|3371,284|39|3372,285|39|3373,286|39|3374,287|39|3375,306|39|3394,318|39|3406,319|39|3407,320|39|3408,321|39|3409,322|39|3410,323|39|3411,324|39|3412,325|39|3413,326|39|3414,327|39|3415,328|39|3416,329|39|3417,330|39|3418,331|39|3419,332|39|3420,333|39|3421,360|39|3448,387|39|3475,388|39|3476,389|39|3477,390|39|3478,391|39|3479,392|39|3480,393|39|3481,394|39|3482,395|39|3483,396|39|3484,397|39|3485,398|39|3486,399|39|3487,416|39|3504,430|39|3518,431|39|3519,432|39|3520,433|39|3521,434|39|3522,435|39|3523,436|39|3524,437|39|3525,438|39|3526,439|39|3527,440|39|3528,441|39|3529,442|39|3530,443|39|3531,444|39|3532,445|39|3533,446|39|3534,447|39|3535,448|39|3536,449|39|3537,450|39|3538,451|39|3539,452|39|3540,473|39|3561,474|39|3562,475|39|3563,476|39|3564,477|39|3565,496|39|3584" oid="-1" prerendered="false" rowHeight="39" shared="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="84" id="3" name="Stencyl Book Pineapple" shared="false" width="42">
+        <anim across="2" down="2" durations="100,100,100" height="168" id="0" loop="true" name="Animation 0" numframes="3" originx="21" originy="42" sync="false" version="2" width="84">
+            <poly data="4,1,0,39,0,39,84,1,84" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="600" id="50" name="titlebg" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="800" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="true" fric="0.2" gid="3" id="5" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="tomato" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="36" id="6" name="tomato" shared="false" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="72" id="0" loop="true" name="rest" numframes="4" originx="24" originy="18" sync="false" version="2" width="96">
+            <poly data="4,0,0,48,0,48,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="rest" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="72" id="1" loop="false" name="left" numframes="3" originx="24" originy="18" sync="false" version="2" width="96">
+            <poly data="4,0,0,48,0,48,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100,100" height="72" id="2" loop="false" name="right" numframes="4" originx="24" originy="18" sync="false" version="2" width="96">
+            <poly data="4,0,0,48,0,48,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="right" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="200,200" height="36" id="3" loop="true" name="rWalk" numframes="2" originx="24" originy="18" sync="false" version="2" width="96">
+            <poly data="4,0,0,48,0,48,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="rWalk" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="200,200" height="36" id="4" loop="true" name="lWalk" numframes="2" originx="24" originy="18" sync="false" version="2" width="96">
+            <poly data="4,0,0,48,0,48,36,0,36" density="0.1" fric="0.2" gid="-1000" id="0" name="lWalk" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+</pack>

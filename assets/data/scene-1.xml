@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="9" extheight="672" extwidth="864" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="608" id="1" name="Lvl1_Pt2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="800">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="5" locked="true" name="bg3" opacity="100" order="3" rid="22" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <background blendMode="normal" customScrollFactor="false" id="6" locked="true" name="clouds" opacity="100" order="2" rid="21" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="7" locked="false" name="l'orange" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="54" id="0" name="exit" pts="4,52.0,0.0,52.0,54.0,0.0,54.0,0.0,0.0" r="64" type="box" w="52" x="745" y="327"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="5" name="tomato 1" sx="1.0" sy="1.0" x="-8" y="156" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="2" id="18" name="pipe 11" sx="1.0" sy="1.0" x="137" y="-57" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="2" id="18" name="pipe 12" sx="1.0" sy="1.0" x="311" y="-56" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="2" id="18" name="pipe 13" sx="1.0" sy="1.0" x="487" y="-55" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="2" id="18" name="pipe 14" sx="1.0" sy="1.0" x="662" y="-56" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="2" id="26" name="healthbar 15" sx="1.0" sy="1.0" x="11" y="15" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="0" id="35" name="star 16" sx="1.0" sy="1.0" x="144" y="144" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="0" id="35" name="star 17" sx="1.0" sy="1.0" x="215" y="144" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="0" id="35" name="star 18" sx="1.0" sy="1.0" x="281" y="143" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="0" id="35" name="star 19" sx="1.0" sy="1.0" x="384" y="199" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="0" id="35" name="star 20" sx="1.0" sy="1.0" x="674" y="332" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="0" id="35" name="star 21" sx="1.0" sy="1.0" x="736" y="331" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="0" id="35" name="star 22" sx="1.0" sy="1.0" x="318" y="403" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="0" id="35" name="star 23" sx="1.0" sy="1.0" x="506" y="470" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="0" id="35" name="star 24" sx="1.0" sy="1.0" x="571" y="426" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="0" id="35" name="star 25" sx="1.0" sy="1.0" x="645" y="469" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="0" id="35" name="star 26" sx="1.0" sy="1.0" x="51" y="459" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="0" id="35" name="star 27" sx="1.0" sy="1.0" x="167" y="294" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="2" id="45" name="arrow 28" sx="1.0" sy="1.0" x="671" y="321" z="7"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,0.0,16.0,0.0,0.0,96.0,0.0,96.0,16.0" x="352.0" y="256.0"/>
+        <p pts="4,96.0,0.0,96.0,16.0,0.0,16.0,0.0,0.0" x="128.0" y="352.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,320.0,0.0,320.0,16.0" x="0.0" y="192.0"/>
+        <p pts="4,96.0,0.0,96.0,16.0,0.0,16.0,0.0,0.0" x="288.0" y="448.0"/>
+        <p pts="4,128.0,0.0,128.0,16.0,0.0,16.0,0.0,0.0" x="0.0" y="512.0"/>
+        <p pts="4,160.0,0.0,160.0,16.0,0.0,16.0,0.0,0.0" x="640.0" y="384.0"/>
+        <p pts="4,0.0,16.0,0.0,0.0,800.0,0.0,800.0,16.0" x="0.0" y="576.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
